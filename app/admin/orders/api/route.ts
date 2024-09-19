@@ -1,8 +1,8 @@
 import { prisma } from "@/src/lib/prisma"
 
-//Vid 718 
+//Vid 722 
 export const dynamic = 'force-dynamic'
-
+//Vid 718
 export async function GET() {
     const orders = await prisma.order.findMany({
         where: {

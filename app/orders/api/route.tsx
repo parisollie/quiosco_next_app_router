@@ -1,5 +1,6 @@
 import { prisma } from "@/src/lib/prisma";
 
+//Vid 722
 export const dynamic = 'force-dynamic'
 
 //Vid 720
